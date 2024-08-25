@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .link-active{
+  @apply flex justify-center items-center mb-6 xl:justify-start text-blue-600  dark:hover:text-blue-700 dark:text-blue-600 cursor-pointer
+    }
+    .link{
+        @apply flex justify-center items-center mb-6 xl:justify-start text-white  dark:hover:text-blue-700 dark:text-dim-200 cursor-pointer
+    }
+    .text{
+        @apply hidden xl:block xl:ml-4 font-bold dark:text-dim-200 cursor-pointer dark:hover:text-blue-700
+    }
+}
